@@ -1,11 +1,12 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../../genindex/" /><link rel="search" title="Search" href="../../search/" /><link rel="next" title="API documentation" href="../api/" /><link rel="prev" title="Text Formatting" href="../text-formatting/" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../../genindex/" /><link rel="search" title="Search" href="../../search/" /><link rel="next" title="API documentation" href="../api/" /><link rel="prev" title="Text Formatting" href="../text-formatting/" />
 
-    <meta name="generator" content="sphinx-3.3.1, furo 2020.11.19.dev19"/>
+    <meta name="generator" content="sphinx-3.5.4, furo 2021.04.11.dev35"/>
         <title>Admonitions - Furo</title>
-      <link rel="stylesheet" href="../../_static/styles/furo.css?state=2518deb993aad7f6b6cc1275">
+      <link rel="stylesheet" href="../../_static/styles/furo.css?digest=0c495c4b9eb7efc2ca9afa7aec7358551979c740">
     <link rel="stylesheet" href="../../_static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../../_static/pygments_dark.css">
     
@@ -36,16 +37,9 @@
   --color-code-foreground: #d0d0d0;
   
   }
-</style><link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="../../_static/pygments_dark.css" />
+</style><link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
-    <link rel="stylesheet" href="../../_static/styles/furo-extensions.css?state=2518deb993aad7f6b6cc1275">
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script defer src="../../_static/jquery.js"></script>
-    <script defer src="../../_static/underscore.js"></script>
-    <script defer src="../../_static/doctools.js"></script>
-    <script defer src="../../_static/language_data.js"></script>
-    <script defer src="../../_static/tabs.js"></script>
-    <script defer src="../../_static/scripts/main.js?state=2518deb993aad7f6b6cc1275"></script></head>
+    <link rel="stylesheet" href="../../_static/styles/furo-extensions.css?digest=d391b54134226e4196576da3bdb6dddb7e05ba2b"></head>
   <body dir="">
     
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -84,11 +78,8 @@
 <label class="overlay sidebar-overlay" for="__navigation"></label>
 <label class="overlay toc-overlay" for="__toc"></label>
 
-<div class="announcement">
-  <aside class="announcement-content">
-    Furo is under active development, and this documentation is not written yet!
-  </aside>
-</div>
+
+
 <div class="page">
   <header class="mobile-header">
     <div class="header-left">
@@ -110,9 +101,11 @@
       
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../../">
   
+  
   <span class="sidebar-brand-text">Furo</span>
+  
 </a><form class="sidebar-search-container" method="get" action="../../search/">
-  <input class="sidebar-search" placeholder="Search" name="q">
+  <input class="sidebar-search" placeholder=Search name="q">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form><div class="sidebar-scroll"><div class="sidebar-tree">
@@ -125,6 +118,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../customisation/landing-page/">Changing landing page</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../customisation/sidebar/">Changing sidebar elements</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../customisation/toc/">Hiding Contents sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../customisation/injecting/">Injecting code</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="../">Reference</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
@@ -137,7 +131,6 @@
 <li class="toctree-l2"><a class="reference internal" href="../lists/">Lists</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../tables/">Tables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../tabs/">Tabs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../really-long/">Really Long Page</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../recommendations/">Recommendations</a></li>
@@ -148,6 +141,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../../contributing/workflow/">Workflow</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../contributing/internals/">Internals</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../contributing/design/">Design Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../kitchen-sink/">Kitchen Sink</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label for="toctree-checkbox-4"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../kitchen-sink/demo/">Paragraph Level Markup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../kitchen-sink/lists_tables/">Lists &amp; Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../kitchen-sink/really-long/">Really Long Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../kitchen-sink/structure/">Structural Elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../kitchen-sink/structure/#structural-elements-2">Structural Elements 2</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../changelog/">Changelog</a></li>
@@ -196,13 +197,13 @@
 <input class="tab-input" id="tab-set--0-input--2" name="tab-set--0" type="radio"/><label class="tab-label" for="tab-set--0-input--2">Markdown (MyST)</label><div class="tab-content docutils container">
 <div class="highlight-md notranslate"><div class="highlight"><pre><span></span>```{note}
 This is what the most basic admonitions look like in Markdown.
-```
+<span class="sb">```</span>
 
-```{note}
-It is <span class="ge">*possible*</span> to have multiple paragraphs in the same admonition.
+<span class="sb">```{note}</span>
+<span class="sb">It is *possible* to have multiple paragraphs in the same admonition.</span>
 
-If you really want, you can even have lists, or code, or tables.
-```
+<span class="sb">If you really want, you can even have lists, or code, or tables.</span>
+<span class="sb">```</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -245,13 +246,13 @@ If you really want, you can even have lists, or code, or tables.
 <input class="tab-input" id="tab-set--1-input--2" name="tab-set--1" type="radio"/><label class="tab-label" for="tab-set--1-input--2">Markdown (MyST)</label><div class="tab-content docutils container">
 <div class="highlight-md notranslate"><div class="highlight"><pre><span></span>```{admonition} Look ma! A custom title.
 It looks different though.
-```
+<span class="sb">```</span>
 
-```{admonition} Another Custom Title
-:class: note
+<span class="sb">```{admonition} Another Custom Title</span>
+<span class="sb">:class: note</span>
 
-Maaa! I made it look the same by setting the class.
-```
+<span class="sb">Maaa! I made it look the same by setting the class.</span>
+<span class="sb">```</span>
 </pre></div>
 </div>
 <div class="admonition-look-ma-a-custom-title admonition">
@@ -340,6 +341,79 @@ Maaa! I made it look the same by setting the class.
 <p>Describe the CSS variables needed.</p>
 </div>
 </div>
+<div class="section" id="nesting-admonitions">
+<h2>Nesting admonitions<a class="headerlink" href="#nesting-admonitions" title="Permalink to this headline">¶</a></h2>
+<div class="docutils container">
+<div class="tab-set docutils container">
+<input checked="True" class="tab-input" id="tab-set--2-input--1" name="tab-set--2" type="radio"/><label class="tab-label" for="tab-set--2-input--1">reStructuredText</label><div class="tab-content docutils container">
+<div class="highlight-rest notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">note</span><span class="p">::</span>
+
+   You can nest admonitions.
+
+<span class="p">   ..</span> <span class="ow">warning</span><span class="p">::</span>
+
+      But you really should not.
+
+<span class="p">      ..</span> <span class="ow">danger</span><span class="p">::</span>
+
+         It's distracting.
+
+      And can be confusing for the user to understand.
+
+   And, honestly, looks weird.
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can nest admonitions.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>But you really should not.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>It’s distracting.</p>
+</div>
+<p>And can be confusing for the user to understand.</p>
+</div>
+<p>And, honestly, looks weird.</p>
+</div>
+</div>
+<input class="tab-input" id="tab-set--2-input--2" name="tab-set--2" type="radio"/><label class="tab-label" for="tab-set--2-input--2">Markdown (MyST)</label><div class="tab-content docutils container">
+<div class="highlight-md notranslate"><div class="highlight"><pre><span></span>`````{note}
+You can nest admonitions.
+
+````{warning}
+But you really should not.
+
+```{danger}
+It's distracting.
+```
+
+And can be confusing for the user to understand.
+````
+
+And, honestly, looks weird.
+`````
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can nest admonitions.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>But you really should not.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>It’s distracting.</p>
+</div>
+<p>And can be confusing for the user to understand.</p>
+</div>
+<p>And, honestly, looks weird.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 
       </article>
@@ -401,6 +475,7 @@ Maaa! I made it look the same by setting the class.
 <li><a class="reference internal" href="#custom-titles">Custom Titles</a></li>
 <li><a class="reference internal" href="#supported-types">Supported types</a></li>
 <li><a class="reference internal" href="#custom-admonitions">Custom Admonitions</a></li>
+<li><a class="reference internal" href="#nesting-admonitions">Nesting admonitions</a></li>
 </ul>
 </li>
 </ul>
@@ -413,5 +488,12 @@ Maaa! I made it look the same by setting the class.
     </aside>
   </main>
 </div>
-  </body>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/tabs.js"></script>
+    <script src="../../_static/scripts/main.js?digest=e931d09b2a40c1bb82b542effe772014573baf67"></script></body>
 </html>

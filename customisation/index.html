@@ -1,11 +1,12 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex/" /><link rel="search" title="Search" href="../search/" /><link rel="next" title="Adding a logo" href="logo/" /><link rel="prev" title="Quickstart" href="../quickstart/" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex/" /><link rel="search" title="Search" href="../search/" /><link rel="next" title="Adding a logo" href="logo/" /><link rel="prev" title="Quickstart" href="../quickstart/" />
 
-    <meta name="generator" content="sphinx-3.3.1, furo 2020.11.19.dev19"/>
+    <meta name="generator" content="sphinx-3.5.4, furo 2021.04.11.dev35"/>
         <title>Customisation - Furo</title>
-      <link rel="stylesheet" href="../_static/styles/furo.css?state=346c77cbcd98cf32edc386f2">
+      <link rel="stylesheet" href="../_static/styles/furo.css?digest=0c495c4b9eb7efc2ca9afa7aec7358551979c740">
     <link rel="stylesheet" href="../_static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../_static/pygments_dark.css">
     
@@ -36,16 +37,9 @@
   --color-code-foreground: #d0d0d0;
   
   }
-</style><link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="../_static/pygments_dark.css" />
+</style><link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
-    <link rel="stylesheet" href="../_static/styles/furo-extensions.css?state=346c77cbcd98cf32edc386f2">
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script defer src="../_static/jquery.js"></script>
-    <script defer src="../_static/underscore.js"></script>
-    <script defer src="../_static/doctools.js"></script>
-    <script defer src="../_static/language_data.js"></script>
-    <script defer src="../_static/tabs.js"></script>
-    <script defer src="../_static/scripts/main.js?state=346c77cbcd98cf32edc386f2"></script></head>
+    <link rel="stylesheet" href="../_static/styles/furo-extensions.css?digest=d391b54134226e4196576da3bdb6dddb7e05ba2b"></head>
   <body dir="">
     
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -84,11 +78,8 @@
 <label class="overlay sidebar-overlay" for="__navigation"></label>
 <label class="overlay toc-overlay" for="__toc"></label>
 
-<div class="announcement">
-  <aside class="announcement-content">
-    Furo is under active development, and this documentation is not written yet!
-  </aside>
-</div>
+
+
 <div class="page">
   <header class="mobile-header">
     <div class="header-left">
@@ -110,9 +101,11 @@
       
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../">
   
+  
   <span class="sidebar-brand-text">Furo</span>
+  
 </a><form class="sidebar-search-container" method="get" action="../search/">
-  <input class="sidebar-search" placeholder="Search" name="q">
+  <input class="sidebar-search" placeholder=Search name="q">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form><div class="sidebar-scroll"><div class="sidebar-tree">
@@ -125,6 +118,7 @@
 <li class="toctree-l2"><a class="reference internal" href="landing-page/">Changing landing page</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sidebar/">Changing sidebar elements</a></li>
 <li class="toctree-l2"><a class="reference internal" href="toc/">Hiding Contents sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="injecting/">Injecting code</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../reference/">Reference</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -137,7 +131,6 @@
 <li class="toctree-l2"><a class="reference internal" href="../reference/lists/">Lists</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../reference/tables/">Tables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../reference/tabs/">Tabs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../reference/really-long/">Really Long Page</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../recommendations/">Recommendations</a></li>
@@ -148,6 +141,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../contributing/workflow/">Workflow</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contributing/internals/">Internals</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contributing/design/">Design Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../kitchen-sink/">Kitchen Sink</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label for="toctree-checkbox-4"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/demo/">Paragraph Level Markup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/lists_tables/">Lists &amp; Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/really-long/">Really Long Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/structure/">Structural Elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/structure/#structural-elements-2">Structural Elements 2</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../changelog/">Changelog</a></li>
@@ -178,7 +179,7 @@
 <p><a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_theme_options"><code class="docutils literal notranslate"><span class="pre">html_theme_options</span></code></a> in <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> is used for customisations that affect the entire documentation. This is for stuff like fonts and colors.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Note that only the configuration options list here are supported (not the ones inherited from the built-in <code class="docutils literal notranslate"><span class="pre">basic</span></code> Sphinx theme).</p>
+<p>Note that only the configuration options listed here are supported (not the ones inherited from the built-in <code class="docutils literal notranslate"><span class="pre">basic</span></code> Sphinx theme).</p>
 </div>
 <div class="section" id="light-css-variables-dark-css-variables">
 <span id="css-variables"></span><h3><code class="docutils literal notranslate"><span class="pre">light_css_variables</span></code>/<code class="docutils literal notranslate"><span class="pre">dark_css_variables</span></code><a class="headerlink" href="#light-css-variables-dark-css-variables" title="Permalink to this headline">¶</a></h3>
@@ -216,6 +217,15 @@
 </pre></div>
 </div>
 </div>
+<div class="section" id="announcement">
+<h3><code class="docutils literal notranslate"><span class="pre">announcement</span></code><a class="headerlink" href="#announcement" title="Permalink to this headline">¶</a></h3>
+<p>Adds a site-wide announcement, to the top of every page when set. This can contain HTML and is included as-is into the page.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"announcement"</span><span class="p">:</span> <span class="s2">"&lt;em&gt;Important&lt;/em&gt; announcement!"</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
 </div>
 <div class="section" id="page-specific-tweaks">
 <h2>Page specific tweaks<a class="headerlink" href="#page-specific-tweaks" title="Permalink to this headline">¶</a></h2>
@@ -227,8 +237,7 @@
 </div>
 <div class="section" id="custom-css-files">
 <h2>Custom CSS files<a class="headerlink" href="#custom-css-files" title="Permalink to this headline">¶</a></h2>
-<p>If you want more control than what is provided by the above theme options, you can add custom stylesheets to your documentation.</p>
-<p>ReadTheDocs has an excellent explanation on <a class="reference external" href="https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html">how to add custom CSS files</a> to Sphinx-based documentation.</p>
+<p>If you want more control than what is provided by the above theme options, see <a class="reference internal" href="injecting/#injecting-code"><span class="std std-ref">Injecting code</span></a>.</p>
 </div>
 </div>
 
@@ -291,6 +300,7 @@
 <li><a class="reference internal" href="#light-css-variables-dark-css-variables"><code class="docutils literal notranslate"><span class="pre">light_css_variables</span></code>/<code class="docutils literal notranslate"><span class="pre">dark_css_variables</span></code></a></li>
 <li><a class="reference internal" href="#sidebar-hide-name"><code class="docutils literal notranslate"><span class="pre">sidebar_hide_name</span></code></a></li>
 <li><a class="reference internal" href="#navigation-with-keys"><code class="docutils literal notranslate"><span class="pre">navigation_with_keys</span></code></a></li>
+<li><a class="reference internal" href="#announcement"><code class="docutils literal notranslate"><span class="pre">announcement</span></code></a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#page-specific-tweaks">Page specific tweaks</a><ul>
@@ -310,5 +320,12 @@
     </aside>
   </main>
 </div>
-  </body>
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/tabs.js"></script>
+    <script src="../_static/scripts/main.js?digest=e931d09b2a40c1bb82b542effe772014573baf67"></script></body>
 </html>

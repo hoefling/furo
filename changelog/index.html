@@ -1,11 +1,12 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../genindex/" /><link rel="search" title="Search" href="../search/" /><link rel="next" title="License" href="../license/" /><link rel="prev" title="Design Notes" href="../contributing/design/" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex/" /><link rel="search" title="Search" href="../search/" /><link rel="next" title="License" href="../license/" /><link rel="prev" title="Structural Elements" href="../kitchen-sink/structure/" />
 
-    <meta name="generator" content="sphinx-3.3.1, furo 2020.11.19.dev19"/>
+    <meta name="generator" content="sphinx-3.5.4, furo 2021.04.11.dev35"/>
         <title>Changelog - Furo</title>
-      <link rel="stylesheet" href="../_static/styles/furo.css?state=0b756596466a206a5ce5c0e5">
+      <link rel="stylesheet" href="../_static/styles/furo.css?digest=0c495c4b9eb7efc2ca9afa7aec7358551979c740">
     <link rel="stylesheet" href="../_static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../_static/pygments_dark.css">
     
@@ -36,16 +37,9 @@
   --color-code-foreground: #d0d0d0;
   
   }
-</style><link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="../_static/pygments_dark.css" />
+</style><link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
-    <link rel="stylesheet" href="../_static/styles/furo-extensions.css?state=0b756596466a206a5ce5c0e5">
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script defer src="../_static/jquery.js"></script>
-    <script defer src="../_static/underscore.js"></script>
-    <script defer src="../_static/doctools.js"></script>
-    <script defer src="../_static/language_data.js"></script>
-    <script defer src="../_static/tabs.js"></script>
-    <script defer src="../_static/scripts/main.js?state=0b756596466a206a5ce5c0e5"></script></head>
+    <link rel="stylesheet" href="../_static/styles/furo-extensions.css?digest=d391b54134226e4196576da3bdb6dddb7e05ba2b"></head>
   <body dir="">
     
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -84,11 +78,8 @@
 <label class="overlay sidebar-overlay" for="__navigation"></label>
 <label class="overlay toc-overlay" for="__toc"></label>
 
-<div class="announcement">
-  <aside class="announcement-content">
-    Furo is under active development, and this documentation is not written yet!
-  </aside>
-</div>
+
+
 <div class="page">
   <header class="mobile-header">
     <div class="header-left">
@@ -110,9 +101,11 @@
       
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../">
   
+  
   <span class="sidebar-brand-text">Furo</span>
+  
 </a><form class="sidebar-search-container" method="get" action="../search/">
-  <input class="sidebar-search" placeholder="Search" name="q">
+  <input class="sidebar-search" placeholder=Search name="q">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form><div class="sidebar-scroll"><div class="sidebar-tree">
@@ -125,6 +118,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../customisation/landing-page/">Changing landing page</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../customisation/sidebar/">Changing sidebar elements</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../customisation/toc/">Hiding Contents sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../customisation/injecting/">Injecting code</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../reference/">Reference</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -137,7 +131,6 @@
 <li class="toctree-l2"><a class="reference internal" href="../reference/lists/">Lists</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../reference/tables/">Tables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../reference/tabs/">Tabs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../reference/really-long/">Really Long Page</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../recommendations/">Recommendations</a></li>
@@ -148,6 +141,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../contributing/workflow/">Workflow</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contributing/internals/">Internals</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contributing/design/">Design Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../kitchen-sink/">Kitchen Sink</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label for="toctree-checkbox-4"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/demo/">Paragraph Level Markup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/lists_tables/">Lists &amp; Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/really-long/">Really Long Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/structure/">Structural Elements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../kitchen-sink/structure/#structural-elements-2">Structural Elements 2</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Changelog</a></li>
@@ -169,10 +170,169 @@
         </label>
         <div class="section" id="changelog">
 <h1>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="beta34">
+<h2>2021.04.11.beta34<a class="headerlink" href="#beta34" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Account for even more variants of sidebar-caption HTML.</p></li>
+</ul>
+</div>
+<div class="section" id="beta33">
+<h2>2021.04.11.beta33<a class="headerlink" href="#beta33" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Another styling update sidebar-caption related changes in Sphinx.</p></li>
+</ul>
+</div>
+<div class="section" id="beta32">
+<h2>2021.04.11.beta32<a class="headerlink" href="#beta32" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Add a basic domainindex page, without dedicated styling.</p></li>
+<li><p>Add recommendation for sphinx-opengraph.</p></li>
+<li><p>Account for newer Sphinx versions changing classes for captions.</p></li>
+<li><p>Account for the broken docutils release.</p></li>
+<li><p>Right align viewcode links (like <code class="docutils literal notranslate"><span class="pre">[source]</span></code>) allowing wrapping of API
+signatures gradefully.</p></li>
+</ul>
+</div>
+<div class="section" id="beta31">
+<h2>2021.03.20.beta31<a class="headerlink" href="#beta31" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Get <code class="docutils literal notranslate"><span class="pre">pygments_dark_style</span></code> working.</p></li>
+<li><p>Use the correct layout for domain index placeholder.</p></li>
+</ul>
+</div>
+<div class="section" id="beta30">
+<h2>2021.03.20.beta30<a class="headerlink" href="#beta30" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix a typo in the README.</p></li>
+<li><p>Add an escape hatch for specific table of contents.</p></li>
+</ul>
+</div>
+<div class="section" id="beta29">
+<h2>2021.03.19.beta29<a class="headerlink" href="#beta29" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Update Python-Requires to &gt;=3.6.</p></li>
+<li><p>Account for nested admonitions.</p></li>
+<li><p>Center align items like other themes.</p></li>
+<li><p>Don’t stylize the compound <code class="docutils literal notranslate"><span class="pre">kbd</span></code> tags.</p></li>
+<li><p>Fix a broken internal link in documentation.</p></li>
+<li><p>Fix a mistyped vertical-align style.</p></li>
+<li><p>Vertically align embedded-in-text images.</p></li>
+<li><p>Declare in HTML that the theme’s pages support multiple color schemes.</p></li>
+</ul>
+</div>
+<div class="section" id="beta28">
+<h2>2021.02.28.beta28<a class="headerlink" href="#beta28" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix a bug in how stylesheets are handled.</p></li>
+<li><p>Clarify how to install directly from GitHub.</p></li>
+<li><p>Document how to install from git.</p></li>
+</ul>
+</div>
+<div class="section" id="beta27">
+<h2>2021.02.28.beta27<a class="headerlink" href="#beta27" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Center figures and legends with <code class="docutils literal notranslate"><span class="pre">margin:</span> <span class="pre">auto</span></code>.</p></li>
+<li><p>Improve compatibility with <code class="docutils literal notranslate"><span class="pre">json</span></code> builder, by not passing functions into the
+Jinja templates.</p></li>
+<li><p>Add a friendly comment to <code class="docutils literal notranslate"><span class="pre">domainindex.html</span></code>, about it not being implemented.</p></li>
+<li><p>Add styling for GUI labels.</p></li>
+</ul>
+</div>
+<div class="section" id="beta26">
+<h2>2021.02.27.beta26<a class="headerlink" href="#beta26" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix wrong height on wide screens, for pages with a tall sidebar but not-tall
+content.</p></li>
+<li><p>Add type annotations to the codebase! 🎉</p></li>
+<li><p>Fix an instance of missing brackets in documentation.</p></li>
+</ul>
+</div>
+<div class="section" id="beta25">
+<h2>2021.02.21.beta25<a class="headerlink" href="#beta25" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Document how to inject custom code in Sphinx documentation</p></li>
+<li><p>Document that <code class="docutils literal notranslate"><span class="pre">pygments_dark_style</span></code> is Furo-specific</p></li>
+<li><p>Make <code class="docutils literal notranslate"><span class="pre">sphinx-panels</span></code> respond to dark mode with Furo</p></li>
+<li><p>Stop <code class="docutils literal notranslate"><span class="pre">defer</span></code>ing Javascript, which was causing search to break in some cases.</p></li>
+</ul>
+</div>
+<div class="section" id="beta24">
+<h2>2020.12.30.beta24<a class="headerlink" href="#beta24" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Disable environment caching if <code class="docutils literal notranslate"><span class="pre">pygments_dark_style</span></code> is changed.</p></li>
+<li><p>Revert to earlier background color for inline literals, and allow configuring
+it via a CSS variables.</p></li>
+</ul>
+</div>
+<div class="section" id="beta23">
+<h2>2020.12.28.beta23<a class="headerlink" href="#beta23" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix code-block overflow issue, introduced by the fix for sphinx-copybutton compatibility.</p></li>
+<li><p>Tweak horizontal rules, to always be 1px tall.</p></li>
+<li><p>Tweak background color for inline literals, to match code blocks.</p></li>
+</ul>
+</div>
+<div class="section" id="beta22">
+<h2>2020.12.28.beta22<a class="headerlink" href="#beta22" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>MAJOR: Move theme files into a “furo” folder.</p>
+<ul>
+<li><p>This affects any users deriving from furo’s templates.</p></li>
+</ul>
+</li>
+<li><p>Add (custom) support for <code class="docutils literal notranslate"><span class="pre">pygments_dark_style</span></code>.</p></li>
+<li><p>Add support for <code class="docutils literal notranslate"><span class="pre">genindex</span></code> pages.</p>
+<ul>
+<li><p>Note that <code class="docutils literal notranslate"><span class="pre">html_split_index</span></code> is not supported at this time.</p></li>
+</ul>
+</li>
+<li><p>Add support for highlighting API elements, when accessed via “#hash” in URL.</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">language_data.js</span></code> to search page, fixing <code class="docutils literal notranslate"><span class="pre">Stemmer</span></code> related failures in Sphinx 3.4.</p></li>
+<li><p>Document how to add a site-wide announcement.</p></li>
+<li><p>Fix sphinx-copybutton placement on scrollable code blocks.</p></li>
+<li><p>Generate an error page, for documents using <code class="docutils literal notranslate"><span class="pre">layout.html</span></code> from Sphinx’s <code class="docutils literal notranslate"><span class="pre">basic</span></code> theme.</p></li>
+<li><p>Translate placeholder in sidebar’s search.</p></li>
+<li><p>Tweak how additional h1 headings are handled in ToC sidebar.</p></li>
+<li><p>Update dependency constraints, limiting compatibility to Sphinx 3.x versions.</p></li>
+</ul>
+</div>
+<div class="section" id="beta21">
+<h2>2020.12.09.beta21<a class="headerlink" href="#beta21" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Rebuild theme assets, for main release.</p></li>
+</ul>
+</div>
+<div class="section" id="beta20">
+<h2>2020.12.09.beta20<a class="headerlink" href="#beta20" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Clarify expectations around sidebar customisation.</p></li>
+<li><p>Declare plugin information to pacify Sphinx’s “are you parallel” check.</p></li>
+<li><p>Disable sidebar-follows-you-as-you-scroll Javascript.</p></li>
+<li><p>Fix scrollbar styles affecting document body.</p></li>
+<li><p>Tweak colors for problematic content.</p></li>
+<li><p>Tweak how words wrap in sidebar title.</p></li>
+<li><p>Tweak spacing in API documentation.</p></li>
+<li><p>Tweak wrapping of text in API function/class signatures.</p></li>
+</ul>
+</div>
+<div class="section" id="beta19">
+<h2>2020.11.27.beta19<a class="headerlink" href="#beta19" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Add styling for rubrics.</p></li>
+<li><p>Add styling for scrollbars, to make them match the theme.</p></li>
+<li><p>Fix bottom-of-page JS conditional.</p></li>
+<li><p>Fix stability of resources hashes. (thanks <a class="reference external" href="https://github.com/dvarrazzo">@dvarrazzo</a>)</p></li>
+<li><p>Fix styling for multi-term definition lists items.</p></li>
+<li><p>Re-add our development documentation kitchen-sink.</p></li>
+<li><p>Tweak how ToC sidebar handles scrollbars.</p></li>
+<li><p>Tweak styling for basic definition lists.</p></li>
+</ul>
+</div>
 <div class="section" id="beta18">
 <h2>2020.11.19.beta18<a class="headerlink" href="#beta18" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>Fix search page becoming non-operations, due to earlier JS changes.</p></li>
+<li><p>Fix search page. It had become non-operational, due to changes to JS
+in the previous release.</p></li>
 </ul>
 </div>
 <div class="section" id="beta17">
@@ -384,14 +544,14 @@
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../contributing/design/">
+          <a class="prev-page" href="../kitchen-sink/structure/">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Design Notes</div>
+                <div class="title">Structural Elements</div>
                 
               </div>
             </a>
@@ -426,6 +586,22 @@
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Changelog</a><ul>
+<li><a class="reference internal" href="#beta34">2021.04.11.beta34</a></li>
+<li><a class="reference internal" href="#beta33">2021.04.11.beta33</a></li>
+<li><a class="reference internal" href="#beta32">2021.04.11.beta32</a></li>
+<li><a class="reference internal" href="#beta31">2021.03.20.beta31</a></li>
+<li><a class="reference internal" href="#beta30">2021.03.20.beta30</a></li>
+<li><a class="reference internal" href="#beta29">2021.03.19.beta29</a></li>
+<li><a class="reference internal" href="#beta28">2021.02.28.beta28</a></li>
+<li><a class="reference internal" href="#beta27">2021.02.28.beta27</a></li>
+<li><a class="reference internal" href="#beta26">2021.02.27.beta26</a></li>
+<li><a class="reference internal" href="#beta25">2021.02.21.beta25</a></li>
+<li><a class="reference internal" href="#beta24">2020.12.30.beta24</a></li>
+<li><a class="reference internal" href="#beta23">2020.12.28.beta23</a></li>
+<li><a class="reference internal" href="#beta22">2020.12.28.beta22</a></li>
+<li><a class="reference internal" href="#beta21">2020.12.09.beta21</a></li>
+<li><a class="reference internal" href="#beta20">2020.12.09.beta20</a></li>
+<li><a class="reference internal" href="#beta19">2020.11.27.beta19</a></li>
 <li><a class="reference internal" href="#beta18">2020.11.19.beta18</a></li>
 <li><a class="reference internal" href="#beta17">2020.11.15.beta17</a></li>
 <li><a class="reference internal" href="#beta16">2020.11.14.beta16</a></li>
@@ -456,5 +632,12 @@
     </aside>
   </main>
 </div>
-  </body>
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/tabs.js"></script>
+    <script src="../_static/scripts/main.js?digest=e931d09b2a40c1bb82b542effe772014573baf67"></script></body>
 </html>
